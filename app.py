@@ -17,7 +17,7 @@ st.caption(
 # Reemplaza el texto entre comillas con tu clave real de OpenRouter (empieza con "sk-or-v1-..."):
 OPENROUTER_API_KEY = os.environ.get(
     "OPENROUTER_API_KEY",
-    "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",  # <-- PEGA TU CLAVE AQUÍ
+    "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",  # <-- PEGA TU CLAVE AQUÍ
 )
 
 MODELO = "openrouter/free"
