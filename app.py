@@ -20,8 +20,7 @@ OPENROUTER_API_KEY = os.environ.get(
     "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",  # <-- PEGA TU CLAVE AQUÍ
 )
 
-# Puedes usar Gemini o cualquier otro modelo disponible en OpenRouter:
-MODELO = "google/gemini-2.0-flash-001"
+MODELO = "openrouter/free"
 
 # Conexión al cliente de OpenRouter
 client = OpenAI(
